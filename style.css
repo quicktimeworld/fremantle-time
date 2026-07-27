@@ -1,20 +1,19 @@
-.website-link{
+.page-link{
+    display:block;
     margin-top:20px;
-}
-
-.website-link a{
-    display:inline-block;
-    background:#0066ff;
-    color:#fff;
-    padding:12px 24px;
-    border-radius:8px;
-    text-decoration:none;
+    color:#0066ff;
     font-size:18px;
     font-weight:bold;
-    transition:0.3s;
+    text-decoration:none;
+    word-break:break-word;
 }
 
-.website-link a:hover{
-    background:#004bcc;
-    transform:scale(1.05);
+.page-link:hover{
+    text-decoration:underline;
+}
+
+.developer-text{
+    margin-top:10px;
+    font-size:15px;
+    color:#666;
 }
