@@ -1,35 +1,20 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg,#006994,#00c6ff);
-    font-family: Arial, sans-serif;
+.website-link{
+    margin-top:20px;
 }
 
-.clock-box {
-    background: white;
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+.website-link a{
+    display:inline-block;
+    background:#0066ff;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
 }
 
-h1 {
-    color: #006994;
-}
-
-.zone {
-    color: gray;
-}
-
-#time {
-    font-size: 45px;
-    font-weight: bold;
-    margin: 20px;
-}
-
-#date {
-    font-size: 20px;
+.website-link a:hover{
+    background:#004bcc;
+    transform:scale(1.05);
 }
